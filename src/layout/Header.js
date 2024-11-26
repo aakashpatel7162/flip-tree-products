@@ -14,8 +14,8 @@ const Header = () => {
     }, []);
 
     const handleLogout = () => {
-        localStorage.removeItem('userDetails'); 
         navigate('/'); 
+        alert("Logout successfully")
     };
 console.log(userName,"userName")
     return (
