@@ -8,7 +8,6 @@ const allroutes = createRoutesFromElements(
     <Route  path="/"  element={<Auth/>}/>
       <Route path="/" element={<Layout/>}>
          <Route path={paths.products} element={<ProductListing/>}/>
-  
       </Route>
     </>
 

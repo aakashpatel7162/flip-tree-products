@@ -5,7 +5,6 @@ export default function Layout() {
   return (
     <div style={{width:"100%", boxSizing:"border-box"}}>
       <Header/>
-
         <ProductListing/>
  </div>
   )

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './layout.style.css';
 import { useNavigate } from 'react-router-dom';
-
 const Header = () => {
     const navigate = useNavigate();
     const [userName, setUserName] = useState(null);

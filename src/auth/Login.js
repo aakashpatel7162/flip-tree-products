@@ -20,7 +20,6 @@ const Login = ({ setUserWantToSignup }) => {
       setError('Invalid email or password');
     }
   };
-
   return (
     <div className="login-container">
       <h2>Login</h2>

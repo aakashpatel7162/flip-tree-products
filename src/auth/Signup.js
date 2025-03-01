@@ -46,7 +46,6 @@ const navigate=useNavigate()
     <div className="auth-form">
       <span>START FOR FREE</span>
       <h1>Create new account</h1>
-      
       <form onSubmit={handleSubmit}>
         <div className="name-inputs">
           <div className="input-group">
