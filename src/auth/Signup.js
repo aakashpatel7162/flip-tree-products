@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './auth.style.css';
 import { useNavigate } from 'react-router-dom';
-
+import  data from '../constant/constant_Items'
 const Signup = ({ setUserWantToSignup }) => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -22,7 +22,7 @@ const navigate=useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true); 
-    if (!/\S+@\S+\.\S+/.test(email)) {
+    if (!data.emailrgx.test(email)) {
       setError('Please enter a valid email address.');
       setLoading(false);  
       return;
