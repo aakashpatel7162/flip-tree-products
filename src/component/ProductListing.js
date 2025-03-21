@@ -5,10 +5,8 @@ const ProductListing = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   const [showCart, setShowCart] = useState(false);
-  
   const cartIconRef = useRef(null);
   const cartDropdownRef = useRef(null);
-
   useEffect(() => {
     fetch('https://dummyjson.com/products')
       .then((response) => response.json())

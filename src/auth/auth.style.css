@@ -124,7 +124,6 @@ p a:hover {
     height: auto; 
     object-fit: cover;
   }
-
   .auth-header {
     flex-direction: column;
     padding: 10px 0;
